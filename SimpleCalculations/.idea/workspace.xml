@@ -39,31 +39,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="trapezoidArea.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/trapezoidArea.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="areaOfTriangle.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/areaOfTriangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="convertorFromCelsiusToFahrenheit.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="convertorFromCelsiusToFahrenheit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/convertorFromCelsiusToFahrenheit.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="radiansToDegrees.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/radiansToDegrees.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usToBgn.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/usToBgn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -95,6 +95,8 @@
         <option value="$PROJECT_DIR$/src/areaOfRectangle.java" />
         <option value="$PROJECT_DIR$/src/areaOfTriangle.java" />
         <option value="$PROJECT_DIR$/src/convertorFromCelsiusToFahrenheit.java" />
+        <option value="$PROJECT_DIR$/src/radiansToDegrees.java" />
+        <option value="$PROJECT_DIR$/src/usToBgn.java" />
       </list>
     </option>
   </component>
@@ -152,37 +154,7 @@
       <pane id="Scope" />
     </panes>
   </component>
-  <component name="RunManager" selected="Application.convertorFromCelsiusToFahrenheit">
-    <configuration default="false" name="trapezoidArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="trapezoidArea" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SimpleCalculations" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="areaAndPerimeterCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="areaAndPerimeterCircle" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SimpleCalculations" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.usToBgn">
     <configuration default="false" name="areaOfRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="areaOfRectangle" />
@@ -216,6 +188,36 @@
     <configuration default="false" name="convertorFromCelsiusToFahrenheit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="convertorFromCelsiusToFahrenheit" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SimpleCalculations" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="radiansToDegrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="radiansToDegrees" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SimpleCalculations" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="usToBgn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="usToBgn" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -433,19 +435,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.trapezoidArea" />
-      <item index="1" class="java.lang.String" itemvalue="Application.areaAndPerimeterCircle" />
-      <item index="2" class="java.lang.String" itemvalue="Application.areaOfRectangle" />
-      <item index="3" class="java.lang.String" itemvalue="Application.areaOfTriangle" />
-      <item index="4" class="java.lang.String" itemvalue="Application.convertorFromCelsiusToFahrenheit" />
+      <item index="0" class="java.lang.String" itemvalue="Application.areaOfRectangle" />
+      <item index="1" class="java.lang.String" itemvalue="Application.areaOfTriangle" />
+      <item index="2" class="java.lang.String" itemvalue="Application.convertorFromCelsiusToFahrenheit" />
+      <item index="3" class="java.lang.String" itemvalue="Application.radiansToDegrees" />
+      <item index="4" class="java.lang.String" itemvalue="Application.usToBgn" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.convertorFromCelsiusToFahrenheit" />
-        <item index="1" class="java.lang.String" itemvalue="Application.areaOfTriangle" />
-        <item index="2" class="java.lang.String" itemvalue="Application.areaOfRectangle" />
-        <item index="3" class="java.lang.String" itemvalue="Application.areaAndPerimeterCircle" />
-        <item index="4" class="java.lang.String" itemvalue="Application.trapezoidArea" />
+        <item index="0" class="java.lang.String" itemvalue="Application.usToBgn" />
+        <item index="1" class="java.lang.String" itemvalue="Application.radiansToDegrees" />
+        <item index="2" class="java.lang.String" itemvalue="Application.convertorFromCelsiusToFahrenheit" />
+        <item index="3" class="java.lang.String" itemvalue="Application.areaOfTriangle" />
+        <item index="4" class="java.lang.String" itemvalue="Application.areaOfRectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -601,6 +603,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/radiansToDegrees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/usToBgn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
