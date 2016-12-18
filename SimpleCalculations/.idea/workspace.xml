@@ -39,22 +39,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="internationConvertor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="internationConvertor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/internationConvertor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="527">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usToBgn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/usToBgn.java">
+      <file leaf-file-name="playWithDates.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/playWithDates.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,6 +90,9 @@
         <option value="$PROJECT_DIR$/src/usToBgn.java" />
         <option value="$PROJECT_DIR$/src/convertorFromCelsiusToFahrenheit.java" />
         <option value="$PROJECT_DIR$/src/internationConvertor.java" />
+        <option value="$PROJECT_DIR$/src/dayOnEarth.java" />
+        <option value="$PROJECT_DIR$/src/playWithDates.java" />
+        <option value="$PROJECT_DIR$/src/daysBetweenTwoDates.java" />
       </list>
     </option>
   </component>
@@ -145,40 +150,10 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Application.internationConvertor">
-    <configuration default="false" name="areaOfTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="areaOfTriangle" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SimpleCalculations" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.daysBetweenTwoDates">
     <configuration default="false" name="convertorFromCelsiusToFahrenheit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="convertorFromCelsiusToFahrenheit" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SimpleCalculations" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="radiansToDegrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="radiansToDegrees" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -209,6 +184,36 @@
     <configuration default="false" name="internationConvertor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="internationConvertor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SimpleCalculations" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="playWithDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="playWithDates" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SimpleCalculations" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="daysBetweenTwoDates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="daysBetweenTwoDates" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -426,19 +431,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.areaOfTriangle" />
-      <item index="1" class="java.lang.String" itemvalue="Application.convertorFromCelsiusToFahrenheit" />
-      <item index="2" class="java.lang.String" itemvalue="Application.radiansToDegrees" />
-      <item index="3" class="java.lang.String" itemvalue="Application.usToBgn" />
-      <item index="4" class="java.lang.String" itemvalue="Application.internationConvertor" />
+      <item index="0" class="java.lang.String" itemvalue="Application.convertorFromCelsiusToFahrenheit" />
+      <item index="1" class="java.lang.String" itemvalue="Application.usToBgn" />
+      <item index="2" class="java.lang.String" itemvalue="Application.internationConvertor" />
+      <item index="3" class="java.lang.String" itemvalue="Application.playWithDates" />
+      <item index="4" class="java.lang.String" itemvalue="Application.daysBetweenTwoDates" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.internationConvertor" />
-        <item index="1" class="java.lang.String" itemvalue="Application.convertorFromCelsiusToFahrenheit" />
-        <item index="2" class="java.lang.String" itemvalue="Application.usToBgn" />
-        <item index="3" class="java.lang.String" itemvalue="Application.radiansToDegrees" />
-        <item index="4" class="java.lang.String" itemvalue="Application.areaOfTriangle" />
+        <item index="0" class="java.lang.String" itemvalue="Application.daysBetweenTwoDates" />
+        <item index="1" class="java.lang.String" itemvalue="Application.playWithDates" />
+        <item index="2" class="java.lang.String" itemvalue="Application.internationConvertor" />
+        <item index="3" class="java.lang.String" itemvalue="Application.convertorFromCelsiusToFahrenheit" />
+        <item index="4" class="java.lang.String" itemvalue="Application.usToBgn" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +464,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -685,6 +690,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/internationConvertor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/greetingByName.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -693,11 +706,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/internationConvertor.java">
+    <entry file="file://$PROJECT_DIR$/src/daysBetweenTwoDates.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/playWithDates.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
