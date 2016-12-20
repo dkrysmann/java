@@ -12,7 +12,7 @@ public class vegetableMarket {
         double totalPriceOfVegetable = vegetableKGprice * amountOfVegetable;
         double totalPriceOfFruits = fruitKGprice * amountOfFruits;
         double totalPrice = (totalPriceOfVegetable + totalPriceOfFruits) / oneEuro;
-        DecimalFormat formater = new DecimalFormat("#.#############");
-        System.out.println(formater.format(totalPrice));
+      //  DecimalFormat formater = new DecimalFormat("#.#############");
+        System.out.printf("%.13f", totalPrice);
     }
 }
