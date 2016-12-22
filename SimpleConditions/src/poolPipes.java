@@ -12,7 +12,7 @@ public class poolPipes {
             double poolVolumewithWater = (int)(waterDebit / v * 100);
             double firstPipe = (int)(p1 * hours / waterDebit * 100);
             double secondPipe = (int)(p2 * hours / waterDebit * 100);
-            System.out.printf("The pool is %.0f full. Pipe 1: %.0f Pipe 2: %.0f",poolVolumewithWater,firstPipe,secondPipe);
+            System.out.printf("The pool is %.0f%% full. Pipe 1: %.0f%%. Pipe 2: %.0f%%.",poolVolumewithWater,firstPipe,secondPipe);
         }
         else {
             System.out.printf("For %s hours the pool overflows with %.0f liters.",hours,waterDebit-v);
