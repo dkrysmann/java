@@ -16,11 +16,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="transportPrice.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="transportPrice.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/transportPrice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="poolPipes.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/poolPipes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -71,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/areaOfFigures.java" />
         <option value="$PROJECT_DIR$/src/equalNumbers.java" />
         <option value="$PROJECT_DIR$/src/transportPrice.java" />
+        <option value="$PROJECT_DIR$/src/poolPipes.java" />
       </list>
     </option>
   </component>
@@ -131,22 +142,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.transportPrice">
-    <configuration default="false" name="hundredToTwoHundred" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="hundredToTwoHundred" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="SimpleConditions" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.poolPipes">
     <configuration default="false" name="equalWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="equalWords" />
@@ -195,6 +191,21 @@
     <configuration default="false" name="transportPrice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="transportPrice" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SimpleConditions" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="poolPipes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="poolPipes" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -412,24 +423,27 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.hundredToTwoHundred" />
-      <item index="1" class="java.lang.String" itemvalue="Application.equalWords" />
-      <item index="2" class="java.lang.String" itemvalue="Application.areaOfFigures" />
-      <item index="3" class="java.lang.String" itemvalue="Application.equalNumbers" />
-      <item index="4" class="java.lang.String" itemvalue="Application.transportPrice" />
+      <item index="0" class="java.lang.String" itemvalue="Application.equalWords" />
+      <item index="1" class="java.lang.String" itemvalue="Application.areaOfFigures" />
+      <item index="2" class="java.lang.String" itemvalue="Application.equalNumbers" />
+      <item index="3" class="java.lang.String" itemvalue="Application.transportPrice" />
+      <item index="4" class="java.lang.String" itemvalue="Application.poolPipes" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.transportPrice" />
-        <item index="1" class="java.lang.String" itemvalue="Application.equalNumbers" />
-        <item index="2" class="java.lang.String" itemvalue="Application.areaOfFigures" />
-        <item index="3" class="java.lang.String" itemvalue="Application.equalWords" />
-        <item index="4" class="java.lang.String" itemvalue="Application.hundredToTwoHundred" />
+        <item index="0" class="java.lang.String" itemvalue="Application.poolPipes" />
+        <item index="1" class="java.lang.String" itemvalue="Application.transportPrice" />
+        <item index="2" class="java.lang.String" itemvalue="Application.equalNumbers" />
+        <item index="3" class="java.lang.String" itemvalue="Application.areaOfFigures" />
+        <item index="4" class="java.lang.String" itemvalue="Application.equalWords" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -637,8 +651,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/transportPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/poolPipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
