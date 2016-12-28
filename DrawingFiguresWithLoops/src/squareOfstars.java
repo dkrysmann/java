@@ -12,8 +12,7 @@ public class squareOfstars {
     static String ptintStars(String star,int count){
         StringBuilder builder = new StringBuilder();
         for (int i = 0; i < count; i++) {
-            builder.append(star);
-            builder.append(" ");
+            builder.append(star).append(" ");
         }
         return builder.toString();
     }
