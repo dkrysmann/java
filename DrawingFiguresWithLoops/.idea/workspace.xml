@@ -16,7 +16,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="rectangle10x10.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rectangle10x10.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rectangle10x10.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -26,15 +26,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stringBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stringBuilder.java">
+      <file leaf-file-name="rectangleOfNxN.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rectangleOfNxN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
-              <folding>
-                <element signature="e#73#74#0" expanded="true" />
-                <element signature="e#124#125#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,6 +56,7 @@
         <option value="$PROJECT_DIR$/src/simpleTest.java" />
         <option value="$PROJECT_DIR$/src/stringBuilder.java" />
         <option value="$PROJECT_DIR$/src/rectangle10x10.java" />
+        <option value="$PROJECT_DIR$/src/rectangleOfNxN.java" />
       </list>
     </option>
   </component>
@@ -116,7 +114,7 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Application.rectangle10x10">
+  <component name="RunManager" selected="Application.rectangleOfNxN">
     <configuration default="false" name="rectangle10x10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="rectangle10x10" />
@@ -135,6 +133,21 @@
     <configuration default="false" name="stringBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="stringBuilder" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DrawingFiguresWithLoops" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="rectangleOfNxN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="rectangleOfNxN" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -351,14 +364,16 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.rectangle10x10" />
       <item index="1" class="java.lang.String" itemvalue="Application.stringBuilder" />
+      <item index="2" class="java.lang.String" itemvalue="Application.rectangleOfNxN" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.rectangle10x10" />
-        <item index="1" class="java.lang.String" itemvalue="Application.stringBuilder" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.rectangleOfNxN" />
+        <item index="1" class="java.lang.String" itemvalue="Application.rectangle10x10" />
+        <item index="2" class="java.lang.String" itemvalue="Application.stringBuilder" />
       </list>
     </recent_temporary>
   </component>
@@ -444,6 +459,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rectangleOfNxN.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
