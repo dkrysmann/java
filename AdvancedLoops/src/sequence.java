@@ -8,9 +8,12 @@ public class sequence {
     }
     static void simpleSequence(int count){
         int num = 1;
-        while (num <= count){
+        for (int i = num; i <= count; i++) {
             System.out.println(num);
-            num = num * 2 + 1;
+            num = (num * 2) + 1;
+            if(num > count){
+                break;
+            }
         }
     }
 }
