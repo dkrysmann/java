@@ -25,10 +25,10 @@ public class grades {
             }
             average += inputGrade;
         }
-        double bestGrade = (best / students) * 100;
-        double betterGrade = (better / students) * 100;
-        double goodGrade = (good / students) * 100;
-        double weakGrade = (fail / students) * 100;
+        double bestGrade = (best * 100) / students;
+        double betterGrade = (better * 100) / students;
+        double goodGrade = (good * 100) / students;
+        double weakGrade = (fail * 100) / students;
         double averageGrades = average / students;
         System.out.printf("Top students: %.2f%%%n",bestGrade);
         System.out.printf("Between 4.00 and 4.99: %.2f%%%n",betterGrade);
