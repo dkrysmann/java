@@ -13,5 +13,7 @@ public class ListWithNymbers {
         System.out.println(doubleList);
         doubleList.remove(0);
         System.out.println(doubleList);
+        System.out.println(doubleList.get(2));
+        System.out.println(doubleList.get(0));
     }
 }
