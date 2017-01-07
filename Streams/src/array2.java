@@ -12,7 +12,7 @@ public class array2 {
         Scanner num = new Scanner(System.in);
         for (int i = 0; i < array1.length; i++) {
             int n = Integer.parseInt(num.nextLine());
-            array1[i]+=n;
+            array1[i]=n;
         }
         Arrays.sort(array1);
         System.out.println(Arrays.toString(array1));
