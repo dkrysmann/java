@@ -3,6 +3,7 @@ import java.util.HashMap;
 public class HashMapDemo {
     public static void main(String[] args) {
         HashMap<String,Double> grades = new HashMap<>();
+
        viewGrades(grades);
     }
     static void viewGrades(HashMap<String,Double> grades){
@@ -11,6 +12,12 @@ public class HashMapDemo {
         grades.put("SahilJay",4.30);
         grades.put("Minka",3.00);
         grades.put("Unufri",2.00);
+        if(grades.containsKey("Pepa")){
+            System.out.println("Pepa is here");
+        }
+        else{
+            grades.put("Pepa",4.5);
+        }
         System.out.println(grades);
     }
 }
