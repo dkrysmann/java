@@ -1,6 +1,8 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class ArrayListDemo {
     public static void main(String[] args) {
@@ -13,9 +15,6 @@ public class ArrayListDemo {
             data.add(a);
         }
         System.out.println("Numbers in Collection: " + data);
-        ArrayList<Integer> contains = new ArrayList<>();
-        contains.addAll(data);
-        Collections.sort(contains);
-        System.out.println(contains);
+        System.out.println(data);
     }
 }
