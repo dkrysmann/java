@@ -12,7 +12,10 @@ public class ArrayListDemo {
             int a = Integer.parseInt(input.nextLine());
             data.add(a);
         }
-        Collections.sort(data);
         System.out.println("Numbers in Collection: " + data);
+        ArrayList<Integer> contains = new ArrayList<>();
+        contains.addAll(data);
+        Collections.sort(contains);
+        System.out.println(contains);
     }
 }
