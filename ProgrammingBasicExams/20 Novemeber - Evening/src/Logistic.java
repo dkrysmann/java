@@ -26,9 +26,9 @@ public class Logistic {
             double truckPrice = truck * 175;
             double trainPrice = train * 120;
             double average = (busPrice + truckPrice + trainPrice) / allTons;
-            double busPercent = (bus / allTons) * 100;
-            double truckPercent = (truck / allTons) * 100;
-            double trainPercent = (train / allTons) * 100;
+            double busPercent = (bus * 100) / allTons;
+            double truckPercent = (truck * 100) / allTons;
+            double trainPercent = (train * 100) / allTons;
         System.out.printf("%.2f%n",average);
         System.out.printf("%.2f%%%n",busPercent);
         System.out.printf("%.2f%%%n",truckPercent);

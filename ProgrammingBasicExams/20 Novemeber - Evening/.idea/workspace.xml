@@ -26,6 +26,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Bike.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bike.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -510,7 +520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Bike.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="170">
           <caret line="37" column="38" lean-forward="true" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
           <folding />
         </state>
