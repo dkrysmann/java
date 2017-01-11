@@ -13,13 +13,12 @@ public class Pets {
         double catFoodNeeded = days * foodForCat;
         double turleFoodNeeded = days * (foodForTurtle / 1000);
         double totalFood = (dogFoodNeeded + catFoodNeeded + turleFoodNeeded);
+        double result = Math.abs(foodAvailableKg - totalFood);
         if(foodAvailableKg >= totalFood){
-            double res = Math.floor(foodAvailableKg - totalFood);
-            System.out.printf("%.0f kilos of food left.",res);
+            System.out.printf("%.0f kilos of food left.",Math.floor(result));
         }
         else{
-            double res = Math.ceil(totalFood - foodAvailableKg);
-            System.out.printf("%.0f more kilos of food are needed.",res);
+            System.out.printf("%.0f more kilos of food are needed.",Math.ceil(result));
         }
     }
 }
