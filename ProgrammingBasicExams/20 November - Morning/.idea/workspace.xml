@@ -36,11 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vacant.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Vacant.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Vacant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-629">
-              <caret line="8" column="62" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SoftUniCamp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SoftUniCamp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="35" column="61" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,6 +76,7 @@
         <option value="$PROJECT_DIR$/src/Fishland.java" />
         <option value="$PROJECT_DIR$/src/Pets.java" />
         <option value="$PROJECT_DIR$/src/Vacant.java" />
+        <option value="$PROJECT_DIR$/src/SoftUniCamp.java" />
       </list>
     </option>
   </component>
@@ -123,7 +134,7 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="RunManager" selected="Application.Vacant">
+  <component name="RunManager" selected="Application.SoftUniCamp">
     <configuration default="false" name="Fishland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Fishland" />
@@ -157,6 +168,21 @@
     <configuration default="false" name="Vacant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Vacant" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="20 November - Morning" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SoftUniCamp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SoftUniCamp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -373,16 +399,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Fishland" />
       <item index="1" class="java.lang.String" itemvalue="Application.Pets" />
       <item index="2" class="java.lang.String" itemvalue="Application.Vacant" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SoftUniCamp" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Vacant" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Pets" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Fishland" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.SoftUniCamp" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Vacant" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Pets" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Fishland" />
       </list>
     </recent_temporary>
   </component>
@@ -468,8 +496,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Vacant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-629">
-          <caret line="8" column="62" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SoftUniCamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="35" column="61" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
