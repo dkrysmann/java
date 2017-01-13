@@ -15,6 +15,7 @@ public class array2 {
             array1[i]=n;
         }
         Arrays.sort(array1);
+
         System.out.println(Arrays.toString(array1));
         return array1;
     }
