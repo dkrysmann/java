@@ -12,6 +12,5 @@ public class TwoDiminssionArray {
             }
         }
         System.out.println(Arrays.deepToString(first));
-
     }
 }

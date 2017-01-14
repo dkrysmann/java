@@ -3,7 +3,9 @@ import java.util.Scanner;
 public class TwoDArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int[][] test = new int[4][4];
+        int r = Integer.parseInt(input.nextLine());
+        int c = Integer.parseInt(input.nextLine());
+        int[][] test = new int[r][c];
         test[0][0] = 1;
         test[1][1] = 2;
         test[2][2] = 3;
