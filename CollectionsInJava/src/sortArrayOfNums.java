@@ -12,8 +12,8 @@ public class sortArrayOfNums {
             nums.add(b);
         }
         Collections.sort(nums);
-        for (Integer S:nums){
-            System.out.print(S + " ");
+        for (int i = 0; i < nums.size(); i++) {
+            System.out.print(nums.get(i) + " ");
         }
     }
 }
