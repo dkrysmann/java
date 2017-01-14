@@ -7,6 +7,7 @@ public class TwoDiminssionArray {
         int rows = Integer.parseInt(input.nextLine());
         System.out.printf("Enter cols:%n");
         int cols = Integer.parseInt(input.nextLine());
+        System.out.printf("%d X %d%n",rows,cols);
         int[][] twoDim = new int[rows][cols];
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
