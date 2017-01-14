@@ -13,6 +13,7 @@ public class TwoDiminssionArray {
             for (int j = 0; j < cols; j++) {
                 twoDim[i][j] = input.nextInt();
             }
+            System.out.println();
         }
         System.out.println(Arrays.deepToString(twoDim));
     }
