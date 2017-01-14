@@ -13,7 +13,7 @@ public class sortArrayOfNums {
         }
         Collections.sort(nums);
         for (int i = 0; i < nums.size(); i++) {
-            System.out.print(nums.get(i) + " ");
-        }
+           System.out.print(nums.get(i) + " ");
+       }
     }
 }
