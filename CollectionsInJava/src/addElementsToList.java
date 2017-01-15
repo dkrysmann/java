@@ -16,6 +16,18 @@ public class addElementsToList {
             numbers.add(a);
         }
         printNumbers(numbers);
+          //  printEvenNumbers(numbers);
+    }
+    public static void printEvenNumbers(ArrayList<Integer> numbers){
+        for (int i = 0; i < numbers.size(); i++) {
+            if(numbers.get(i) % 2 == 0){
+                System.out.println("Even");
+            }
+            else{
+                System.out.println("Odd");
+            }
+        }
+        System.out.println(numbers);
     }
    public static void printNumbers(ArrayList<Integer>numbers){
         System.out.println(numbers);
