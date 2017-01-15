@@ -8,15 +8,18 @@ public class addElementsToList {
         int a = Integer.parseInt(input.nextLine());
         addNumbers(a);
     }
-    static ArrayList<Integer> addNumbers(int number){
+    public static void addNumbers(int n){
+        ArrayList<Integer> numbers = new ArrayList<>(n);
+        printNumbers(n, numbers);
+    }
+
+    public static void printNumbers(int n, ArrayList<Integer> numbers) {
         Scanner input = new Scanner(System.in);
-      ArrayList<Integer> collection = new ArrayList<>(number);
-        for (int i = 0; i < number; i++) {
+        for (int i = 0; i < n; i++) {
             int a = Integer.parseInt(input.nextLine());
-            collection.add(a);
+            numbers.add(a);
         }
-        System.out.println(collection);
-        return collection;
+        System.out.println(numbers);
     }
 
 }
