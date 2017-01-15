@@ -8,7 +8,7 @@ public class addElementsToList {
         int a = Integer.parseInt(input.nextLine());
         addNumbers(a);
     }
-    static void addNumbers(int num){
+   public static void addNumbers(int num){
         Scanner input = new Scanner(System.in);
         ArrayList<Integer> numbers = new ArrayList<>(num);
         for (int i = 0; i < num; i++) {
@@ -17,7 +17,7 @@ public class addElementsToList {
         }
         printNumbers(numbers);
     }
-    static void printNumbers(ArrayList<Integer>numbers){
+   public static void printNumbers(ArrayList<Integer>numbers){
         System.out.println(numbers);
     }
 
