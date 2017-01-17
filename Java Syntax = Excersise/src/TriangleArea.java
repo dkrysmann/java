@@ -14,7 +14,7 @@ public class TriangleArea {
         calculateArea(Ax,Ay,Bx,By,Cx,Cy);
     }
     static double calculateArea(double Ax,double Ay,double Bx,double By,double Cx,double Cy){
-        double area = (Ax * (By-Cy) + Bx * (Cy - Ay) + Cx * (Ay - By)) / 2;
+        double area = Ax * (By-Cy) + Bx * (Cy - Ay) + Cx * (Ay - By) / 2;
         System.out.printf("%.0f",area);
         return area;
     }
