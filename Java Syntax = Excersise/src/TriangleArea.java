@@ -3,18 +3,18 @@ import java.util.Scanner;
 public class TriangleArea {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double Ax = Double.parseDouble(input.nextLine());
-        double Ay = Double.parseDouble(input.nextLine());
-
-        double Bx = Double.parseDouble(input.nextLine());
-        double By = Double.parseDouble(input.nextLine());
-
-        double Cx =  Double.parseDouble(input.nextLine());
-        double Cy =  Double.parseDouble(input.nextLine());
+        int Ax = input.nextInt();
+        int Ay = input.nextInt();
+        input.nextLine();
+        int Bx = input.nextInt();
+        int By = input.nextInt();
+        input.nextLine();
+        int Cx = input.nextInt();
+        int Cy = input.nextInt();
         calculateArea(Ax,Ay,Bx,By,Cx,Cy);
     }
-    static double calculateArea(double Ax,double Ay,double Bx,double By,double Cx,double Cy){
-        double area = Ax * (By-Cy) + Bx * (Cy - Ay) + Cx * (Ay - By) / 2;
+    static double calculateArea(int Ax,int Ay,int Bx,int By,int Cx,int Cy){
+        double area = Math.abs(Ax * (By-Cy) + Bx * (Cy - Ay) + Cx * (Ay - By)) / 2;
         System.out.printf("%.0f",area);
         return area;
     }
