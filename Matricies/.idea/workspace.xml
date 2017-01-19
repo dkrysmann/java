@@ -40,16 +40,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SumMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SumMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaximumSum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaximumSum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,14 +50,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JaggedArrays.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JaggedArrays.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/JaggedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PascalTraingle.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PascalTraingle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="11" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,7 +84,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>col</find>
+      <find>int</find>
     </findStrings>
+    <replaceStrings>
+      <replace>long</replace>
+    </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -99,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/SumMatrix.java" />
         <option value="$PROJECT_DIR$/src/MaximumSum.java" />
         <option value="$PROJECT_DIR$/src/JaggedArrays.java" />
+        <option value="$PROJECT_DIR$/src/PascalTraingle.java" />
       </list>
     </option>
   </component>
@@ -156,7 +161,7 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="RunManager" selected="Application.JaggedArrays">
+  <component name="RunManager" selected="Application.PascalTraingle">
     <configuration default="false" name="ReadSortAndPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ReadSortAndPrint" />
@@ -205,6 +210,21 @@
     <configuration default="false" name="JaggedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="JaggedArrays" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Matricies" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PascalTraingle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="PascalTraingle" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -421,18 +441,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.ReadSortAndPrint" />
       <item index="1" class="java.lang.String" itemvalue="Application.MultidimensionalArr" />
       <item index="2" class="java.lang.String" itemvalue="Application.SumMatrix" />
       <item index="3" class="java.lang.String" itemvalue="Application.JaggedArrays" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PascalTraingle" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.JaggedArrays" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SumMatrix" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MultidimensionalArr" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ReadSortAndPrint" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.PascalTraingle" />
+        <item index="1" class="java.lang.String" itemvalue="Application.JaggedArrays" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SumMatrix" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MultidimensionalArr" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ReadSortAndPrint" />
       </list>
     </recent_temporary>
   </component>
@@ -498,6 +520,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/SumMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ReadSortAndPrint.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -518,14 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SumMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MaximumSum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -536,11 +558,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/JaggedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="40" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PascalTraingle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
