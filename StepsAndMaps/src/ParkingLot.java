@@ -5,16 +5,16 @@ public class ParkingLot {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         HashSet<String> parking = new HashSet<>();
-        while (true){
+        while (true) {
             String direction = input.nextLine();
+            String[] commandHolder = direction.split(", ");
+            if (commandHolder[0].equals("IN")) {
+                parking.add(commandHolder[1]);
+            } else if(commandHolder[0].equals("OUT")) {
+                parking.remove(commandHolder[1]);
+            }
             if(direction.equals("END")){
                 break;
-            }
-            String[] command = direction.split(", ");
-            if(command[0].equals("IN")){
-                parking.add(command[1]);
-            }else{
-                parking.remove(command[1]);
             }
         }
         if(parking.isEmpty()){
