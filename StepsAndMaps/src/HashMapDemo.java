@@ -10,5 +10,6 @@ public class HashMapDemo {
         for (String key: vehicles.keySet()) {
             System.out.println(key + " " + vehicles.get(key));
         }
+
     }
 }
