@@ -21,6 +21,8 @@ public class Main extends Application {
         File earthSprite = new File("D:\\projects\\Java\\Java FX\\Labels\\src\\sprites\\planet-earth.png");
         File planetUranusSprite = new File("D:\\projects\\Java\\Java FX\\Labels\\src\\sprites\\planet-uranus.png");
         File spacePlanetSprite = new File("D:\\projects\\Java\\Java FX\\Labels\\src\\sprites\\Space-Planet.png");
+        File deathStarSprite = new File("D:\\projects\\Java\\Java FX\\Labels\\src\\sprites\\death-star.png");
+
 
         Image spaceShip = new Image(spaceShipSprite.toURI().toString());
         ImageView imgSpaceShip = new ImageView(spaceShip);
@@ -50,7 +52,14 @@ public class Main extends Application {
         imgSaturn.setX(800);
         imgSaturn.setY(100);
 
-        pane.getChildren().addAll(imgSpaceShip,imgPlanetEarth,imgUranus,imgSaturn);
+        Image deathStar = new Image(deathStarSprite.toURI().toString());
+        ImageView imgDeathStar = new ImageView(deathStar);
+        imgDeathStar.setFitHeight(100);
+        imgDeathStar.setFitWidth(100);
+        imgDeathStar.setX(800);
+        imgDeathStar.setY(400);
+
+        pane.getChildren().addAll(imgSpaceShip,imgPlanetEarth,imgUranus,imgSaturn,imgDeathStar);
         Scene scene = new Scene(pane,1024,1024);
         primaryStage.setScene(scene);
         primaryStage.show();
