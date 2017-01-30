@@ -26,8 +26,8 @@ public class Main extends Application {
         ImageView imgSpaceShip = new ImageView(spaceShip);
         imgSpaceShip.setFitHeight(90);
         imgSpaceShip.setFitWidth(90);
-        imgSpaceShip.setX(400);
-        imgSpaceShip.setY(600);
+        imgSpaceShip.setX(450);
+        imgSpaceShip.setY(320);
 
         Image planetEarth = new Image(earthSprite.toURI().toString());
         ImageView imgPlanetEarth = new ImageView(planetEarth);
