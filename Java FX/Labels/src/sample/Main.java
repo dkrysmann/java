@@ -102,6 +102,7 @@ public class Main extends Application {
                 onMouseClicked(event);
             }
         });
+
     }
 
     private void onMouseClicked(MouseEvent event) {
@@ -155,7 +156,9 @@ public class Main extends Application {
         imgSpaceShip.setY(shipPosY);
     }
 
+
     public static void main(String[] args)
+
     {
         launch(args);
     }
