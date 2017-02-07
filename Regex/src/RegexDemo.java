@@ -5,8 +5,10 @@ public class RegexDemo {
     public static void main(String[] args) {
         Pattern pattern = Pattern.compile("a");
         Matcher matcher = pattern.matcher("aaaab");
+        int counter = 0;
         while (matcher.find()){
-            System.out.print(matcher.group() + " ");
+            counter++;
         }
+        System.out.println("Matches a->" + counter);
     }
 }
