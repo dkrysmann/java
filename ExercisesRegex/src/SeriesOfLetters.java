@@ -10,7 +10,7 @@ public class SeriesOfLetters {
         String inputText = reader.readLine();
         Pattern paternSearch = Pattern.compile("([a-z-A-Z])\\1+");
         Matcher paternMach = paternSearch.matcher(inputText);
-        if(paternMach.find()){
+        while(paternMach.find()){
            inputText = paternMach.replaceAll("$1");
         }
         System.out.println(inputText);
