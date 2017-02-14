@@ -1,17 +1,13 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
-public class UpperStrings {
+public class UpperStringSecondWay {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String[] input = reader.readLine().split("\\s+");
-        List<String> names = new ArrayList<>();
-        for (int i = 0; i < input.length; i++) {
-            names.add(String.valueOf(input[i]));
-        }
+        List<String> names = Arrays.asList(reader.readLine().split(" "));
         names.stream().map(x->x.toUpperCase()).forEach(x-> System.out.print(x + " "));
     }
 }
