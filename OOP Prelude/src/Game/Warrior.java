@@ -21,9 +21,10 @@ public class Warrior  extends Champion {
     }
 
     @Override
-    public void setAttackCost() {
+    public void attack(Champion champion) {
 
     }
+
 
     @Override
     public void respond() {
