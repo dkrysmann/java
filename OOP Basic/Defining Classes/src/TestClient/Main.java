@@ -15,7 +15,7 @@ public class Main {
             String commandType = commandsArgs[0];
             switch (commandType){
                 case "Create":
-                    executeCreateCommand(testAccounts, commandsArgs[1]);
+                    executeCreateCommand(testAccounts, commandsArgs);
                     break;
                 case "Deposit":
                     executeDepositCommand(testAccounts, commandsArgs);
@@ -70,8 +70,8 @@ public class Main {
         }
     }
 
-    private static void executeCreateCommand(HashMap<Integer, TestAccount> accounts, String commandsArg) {
-        int id = Integer.parseInt(commandsArg);
+    private static void executeCreateCommand(HashMap<Integer, TestAccount> accounts, String[] commandsArg) {
+        int id = Integer.parseInt(commandsArg[1]);
         if(accounts.containsKey(id)){
             System.out.printf("Account already exists%n");
         }else{
