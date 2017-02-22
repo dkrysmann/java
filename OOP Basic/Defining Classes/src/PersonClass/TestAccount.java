@@ -1,4 +1,4 @@
-package TestClient;
+package PersonClass;
 
 
 public class TestAccount {
