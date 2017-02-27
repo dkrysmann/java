@@ -45,10 +45,13 @@ public class PersonSalary {
             this.salary += this.salary * bonus / 200;
         }
     }
-
-    @Override
-    public String toString() {
-        return this.getFirstName() + " " + this.getLastName() + " " + "get " + this.getSalary()
-                + " leva";
+    public void printSalary(){
+        System.out.printf("%s %s get %s leva%n",this.getFirstName(),this.getLastName(),this.getSalary());
     }
+
+  //  @Override
+  //  public String toString() {
+  //      return this.getFirstName() + " " + this.getLastName() + " " + "get " + this.getSalary()
+  //              + " leva";
+  //  }
 }

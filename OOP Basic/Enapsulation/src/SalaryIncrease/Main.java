@@ -22,7 +22,7 @@ public class Main {
             person.increaseSalary(bonus);
         }
         for (PersonSalary person : persons) {
-            System.out.println(person.toString());
+            person.printSalary();
         }
     }
 }
