@@ -14,7 +14,7 @@ public class Main {
         double height = Double.parseDouble(input.readLine());
         try {
             Box box = new Box(length,width,height);
-           box.printResult();
+            box.printResult();
         }catch (IllegalArgumentException msg){
             System.out.println(msg.getMessage());
         }
