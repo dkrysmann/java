@@ -29,6 +29,6 @@ public class Main {
         }
         team.printNumberOfPlayersInFirstTeam();
         team.printNumberOfPlayerInReserveTeam();
-      
+
     }
 }
