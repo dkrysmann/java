@@ -13,5 +13,8 @@ public class Main {
         for (Shape shape : list) {
             System.out.println(shape.getArea());
         }
+        for (Shape shape : list) {
+            System.out.println(shape.getPerimeter());
+        }
     }
 }
