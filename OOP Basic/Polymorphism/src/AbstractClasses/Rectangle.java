@@ -29,7 +29,7 @@ public class Rectangle extends Shape{
 
     @Override
     public void calculatePerimeter() {
-            setPerimeter(2 * this.height + 2 * this.width);
+            setPerimeter(2 * this.getWidth() + 2 * this.getWidth());
     }
 
     @Override
