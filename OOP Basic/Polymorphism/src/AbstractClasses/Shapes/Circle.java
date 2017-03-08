@@ -1,4 +1,4 @@
-package AbstractClasses;
+package AbstractClasses.Shapes;
 
 public class Circle extends Shape{
     private double radius;

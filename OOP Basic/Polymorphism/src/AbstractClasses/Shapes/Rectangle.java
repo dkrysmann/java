@@ -1,4 +1,4 @@
-package AbstractClasses;
+package AbstractClasses.Shapes;
 
 
 public class Rectangle extends Shape{

@@ -1,4 +1,4 @@
-package AbstractClasses;
+package AbstractClasses.Shapes;
 
 
 public abstract class Shape {

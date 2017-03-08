@@ -1,4 +1,4 @@
-package AbstractClasses;
+package AbstractClasses.Shapes;
 
 import java.util.ArrayList;
 import java.util.List;
