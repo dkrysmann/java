@@ -1,6 +1,6 @@
 package rpg_lab;
 
-public class Dummy {
+public class Dummy implements Target{
 
     private int health;
     private int experience;
@@ -20,6 +20,10 @@ public class Dummy {
         }
 
         this.health -= attackPoints;
+    }
+
+    public int giveExprerience() {
+        return 0;
     }
 
     public int giveExperience() {

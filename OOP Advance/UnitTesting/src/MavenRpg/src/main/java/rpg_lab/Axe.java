@@ -1,6 +1,6 @@
 package rpg_lab;
 
-public class Axe {
+public class Axe implements Weapon{
 
     private int attackPoints;
     private int durabilityPoints;
