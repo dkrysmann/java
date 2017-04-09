@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpirngMVC Test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpirngMVC_Test_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpirngMVC Test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpirngMVC Test" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
