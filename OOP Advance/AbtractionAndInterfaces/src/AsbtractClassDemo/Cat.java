@@ -1,0 +1,10 @@
+package AsbtractClassDemo;
+
+
+public class Cat extends Animal{
+
+    @Override
+    public void eat() {
+        System.out.println("Cat eats mouses");
+    }
+}
