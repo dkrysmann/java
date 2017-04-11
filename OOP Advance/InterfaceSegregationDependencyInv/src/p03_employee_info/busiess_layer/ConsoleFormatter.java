@@ -1,0 +1,16 @@
+package p03_employee_info.busiess_layer;
+
+import p03_employee_info.models.Employee;
+import p03_employee_info.user_inteface.Formatter;
+
+public class ConsoleFormatter implements Formatter{
+
+    public String format(Iterable<Employee> employees) {
+        StringBuilder sb = new StringBuilder();
+        for (Employee employee : employees) {
+            sb.append(employee).append(System.lineSeparator());
+        }
+
+        return sb.toString();
+    }
+}
