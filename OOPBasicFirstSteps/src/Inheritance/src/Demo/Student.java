@@ -9,4 +9,13 @@ public class Student extends Person{
         this.education = education;
     }
 
+    private String getEducation() {
+        return this.education;
+    }
+
+    @Override
+    public void printInformation(){
+        super.printInformation();
+        System.out.printf("Education - %s",this.getEducation());
+    }
 }

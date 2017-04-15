@@ -17,7 +17,7 @@ public class Person {
         return this.age;
     }
 
-   protected String printInformataion(){
-        return String.format("Name - %s%nAge - %s",this.getName(),this.getAge());
+   public void printInformation(){
+       System.out.printf("Name - %s%nAge - %s%n",this.getName(),this.getAge());
    }
 }
