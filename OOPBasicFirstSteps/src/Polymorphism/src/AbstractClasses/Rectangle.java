@@ -5,8 +5,8 @@ public class Rectangle extends Shape{
     private double height;
     private double width;
 
-    public Rectangle(double heightm,double width){
-        this.height = heightm;
+    public Rectangle(double height,double width){
+        this.height = height;
         this.width = width;
         this.calcArea();
         this.calcPerimeter();
