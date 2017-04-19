@@ -1,7 +1,5 @@
 package Clock;
 
-import java.time.LocalTime;
-
 public class GreetingClock {
 
     private TimeProvider timeProvider;
